@@ -5710,7 +5710,7 @@ a {
 .st-container > a {
   position: fixed;
   bottom: 0px;
-  width: 20%;
+  width: 25%;
   cursor: pointer;
   z-index: 10;
   font-size: 16px;
@@ -5733,16 +5733,16 @@ a {
   left: 0; }
 
 #st-control-2, #st-control-2 + a {
-  left: 20%; }
+  left: 25%; }
 
 #st-control-3, #st-control-3 + a {
-  left: 40%; }
+  left: 50%; }
 
 #st-control-4, #st-control-4 + a {
   left: 60%; }
 
 #st-control-5, #st-control-5 + a {
-  left: 80%; }
+  left: 75%; }
 
 .st-container > input:checked + a,
 .st-container > input:checked:hover + a {
@@ -6216,14 +6216,14 @@ h1 {
   outline: none; }
 
 /*-------------Form-------------*/
-.overlay {
+.overlay-contact {
   position: absolute;
   margin: auto;
-  top: 0;
-  right: 0;
+  top: 490px;
+  right: -150px;
   bottom: 0;
   left: 0;
-  color: #105268;
+  color: #7C5C7C;
   opacity: 0;
   visibility: hidden;
   z-index: 100;
@@ -6236,9 +6236,9 @@ h1 {
   border-radius: 6px;
   box-shadow: .3em .3em .4em #000; }
 
-.overlay.open {
+.overlay-contact.open {
   width: 80%;
-  height: 100%;
+  height: 500px;
   visibility: visible;
   transition: opacity .4s .2s ease-out;
   opacity: 1; }
@@ -6248,7 +6248,7 @@ h1 {
   float: right;
   width: 2em;
   height: 2em;
-  border: 0.1em solid tomato;
+  border: 0.1em solid #7C5C7C;
   font-size: .8em;
   border-radius: 50%;
   position: relative;
@@ -6260,7 +6260,7 @@ h1 {
   content: "";
   display: block;
   position: absolute;
-  background-color: tomato;
+  background-color: #7C5C7C;
   width: 80%;
   height: 6%;
   left: 10%;
@@ -6270,7 +6270,7 @@ h1 {
   content: "";
   display: block;
   position: absolute;
-  background-color: tomato;
+  background-color: #7C5C7C;
   width: 6%;
   height: 80%;
   left: 47%;
@@ -6278,7 +6278,7 @@ h1 {
 
 .close-button:hover {
   cursor: pointer;
-  background-color: tomato; }
+  background-color: #7C5C7C; }
 
 .close-button:hover:before,
 .close-button:hover:after {
@@ -6287,7 +6287,7 @@ h1 {
 /*-------------King Joffrey dies at his wedding-------------*/
 input,
 textarea {
-  border: 2px solid #2c3e50;
+  border: 2px solid #7C5C7C;
   font-size: 0.8em;
   background-color: #ecf0f1;
   color: #2c3e50;
@@ -6306,12 +6306,12 @@ textarea:active {
   color: #ecf0f1; }
 
 input:invalid {
-  border-color: #b31800; }
+  border-color: #7C5C7C; }
 
 .btn-send {
-  color: tomato;
+  color: #7C5C7C;
   background: #ecf0f1;
-  border: 3px solid tomato;
+  border: 3px solid #7C5C7C;
   transition: all 0.3s;
   position: relative;
   float: right; }
@@ -6319,37 +6319,37 @@ input:invalid {
 .btn-send:hover,
 .btn-send:active {
   color: #fff;
-  background: tomato; }
+  background: #7C5C7D; }
 
 /*-------------Trigger Button-------------*/
 .circle {
   position: absolute;
   margin: auto;
-  top: 0;
-  right: 0;
+  top: 520px;
+  right: -130px;
   bottom: 0;
   left: 0;
   height: 200px;
   width: 200px;
-  background: #FF7054;
-  border: 4px solid #FF7054;
+  background: #7C5C7C;
+  border: 4px solid #7C5C7C;
   border-radius: 50%;
   cursor: pointer;
   display: block;
   transition: border-radius 0.3s cubic-bezier(0.3, -0.26, 0.4, 1.3), height 0.3s cubic-bezier(0.3, -0.26, 0.4, 1.3), width 0.3s cubic-bezier(0.3, -0.26, 0.4, 1.3); }
 
 .circle:hover {
-  background: #D93D21;
-  border-color: #D93D21; }
+  background: #594259;
+  border-color: #594259; }
 
 .circle.open {
   border-radius: 0;
-  height: 100%;
+  height: 675px;
   width: 80%; }
 
 .circle.open:hover {
-  background-color: #FF7054;
-  border-color: #FF7054; }
+  background-color: #7C5C7C;
+  border-color: #7C5C7C; }
 
 .envelope {
   height: 0;
