@@ -6122,9 +6122,6 @@ body:before {
   .content-item {
     height: 100px !important;
     margin: 0 !important; }
-    .content-item img {
-      width: 82%;
-      height: 100%; }
     .content-item .enlace-res {
       font-size: 1.5em; } }
 p {
