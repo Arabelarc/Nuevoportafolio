@@ -8,13 +8,24 @@ a {
     background-image: url(../img/back.png);
     background-size: cover;
 }
-.works{
+.skills{
     background-image: url(../img/works.png);
     background-size: cover;
 }
 .contact-f{
     background-image: url(../img/contact.png);
     background-size: cover;    
+}
+.works{
+    background-image: url(../img/skills.png);
+    background-size: cover;    
+}
+.habilidades-h2{
+    top: 150px !important;
+    font-weight: 100;
+}
+.parrafo-habilidades {
+    top: 150px;
 }
 .st-container {
     position: absolute;
