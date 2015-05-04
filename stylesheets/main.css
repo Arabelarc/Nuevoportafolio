@@ -6110,6 +6110,23 @@ body:before {
 .brand svg .word-digital g.letter.l {
   transition-delay: 800ms; }
 
+@media screen and (max-width: 480px) {
+  .st-panel p {
+    font-size: 12px;
+    top: 33%; }
+
+  .brand svg {
+    top: 20%;
+    left: 54%; }
+
+  .content-item {
+    height: 100px !important;
+    margin: 0 !important; }
+    .content-item img {
+      width: 82%;
+      height: 100%; }
+    .content-item .enlace-res {
+      font-size: 1.5em; } }
 p {
   margin: 0;
   padding: 0; }
@@ -6217,7 +6234,8 @@ form > div {
   left: 784px; }
   .button-send button {
     border-radius: 6%;
-    background-color: white; }
+    background-color: white;
+    color: #fef3; }
 
 form > div > fieldset > div > div {
   margin: 0 0 5px 0; }

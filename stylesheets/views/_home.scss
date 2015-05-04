@@ -492,3 +492,26 @@ body:before {
 .brand svg .word-digital g.letter.t { transition-delay: 600ms; }
 .brand svg .word-digital g.letter.a { transition-delay: 700ms; }
 .brand svg .word-digital g.letter.l { transition-delay: 800ms; }
+
+@media screen and (max-width:$screen-phone) { 
+    .st-panel p {;
+        font-size: 12px;
+        top: 33%;
+    }
+    .brand svg {
+        top: 20%;
+        left: 54%;
+    }
+    .content-item {
+        height: 100px !important;
+        margin: 0 !important;
+      img{
+        width: 82%;
+        height: 100%;
+      }
+      .enlace-res{
+        font-size: 1.5em;
+      }
+    }
+
+}
