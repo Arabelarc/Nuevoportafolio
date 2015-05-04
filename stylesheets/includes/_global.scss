@@ -1,0 +1,16 @@
+// Son los estilos personalizados que se repiten en todas las vistas, por ejemplo, el header o el footer del sitio.
+@font-face {
+    font-family: "Lato-Light";
+    src: url(fonts/Titulares/Lato-Light.ttf);
+}
+@font-face {
+    font-family: "Merriweather-Light";
+    src: url(fonts/Parrafos/Merriweather-Light.ttf);
+}
+
+a, h1 , h2 , h3 ,h4 ,h5 ,h6 {
+	font-family: "Lato";
+}
+span , p , ul , li {
+	font-family:"Merriweather";
+}

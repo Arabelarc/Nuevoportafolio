@@ -1,0 +1,73 @@
+//Colocar aquí clases utilitarias para todo el sitio. Por ejemplo: márgenes, alineación de texto y color de texto.
+.text-white{
+	color:white !important;
+}
+.text-g{
+	color:#9E9D9D !important;
+}
+
+$color: blue red orange yellow pink gray skyblue tomato ;
+
+@each $colors in $color {
+	.#{$colors}{
+	background-color: $colors;
+	color: $colors;
+	}
+}
+$moztaza: #F7D358;
+
+.moztaza{
+  background-color:$moztaza;
+}
+/*Formula para height*/
+
+@for $i from 1 through 8{
+  .f-w#{$i*100} {
+    font-weight: (100*$i);
+  }
+ }
+/*Formula para font-size*/
+@for $i from 1 through 10{
+  .f-s#{$i*1} {
+    font-size: (1.1em*$i);
+  }
+}
+.f2-b{
+	bottom: -55px !important;
+}
+.f4-b{
+	bottom: -57px !important;
+}
+.f5-b{
+	bottom: -103px !important;
+}
+.fs12{
+  font-size: 1.2em;
+}
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+}
+.pd-r{
+	right: 3%;
+}
+.pd-bottom{
+	padding-bottom: 2%;
+}
+.pd-top{
+	padding-top: 5%;
+}
+.flecha {
+  position: relative;
+  bottom: 30px;
+  text-align: center;
+}
+.oculto{
+	display: none;
+	visibility: none;
+}
+.l-h{
+	line-height: 1.5;
+}
