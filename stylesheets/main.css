@@ -5659,15 +5659,15 @@ button.close {
 
 @font-face {
   font-family: "Lato-Light";
-  src: url(fonts/Titulares/Lato-Light.ttf); }
+  src: url(../fonts/Titulares/Lato-Light.ttf); }
 @font-face {
   font-family: "Merriweather-Light";
-  src: url(fonts/Parrafos/Merriweather-Light.ttf); }
+  src: url(../fonts/Parrafos/Merriweather-Light.ttf); }
 a, h1, h2, h3, h4, h5, h6 {
-  font-family: "Lato"; }
+  font-family: "Lato-Light", "Helvetica" , "Arial", "sans-serif"; }
 
 span, p, ul, li {
-  font-family: "Merriweather"; }
+  font-family: "Merriweather-Light", "Times New Roman" , "Times", "serif"; }
 
 body {
   overflow: hidden; }
