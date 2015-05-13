@@ -504,6 +504,10 @@ body:before {
 .brand svg .word-digital g.letter.a { transition-delay: 700ms; }
 .brand svg .word-digital g.letter.l { transition-delay: 800ms; }
 
+.w-100{
+    width: 100%;
+}
+
 @media screen and (max-width:$screen-phone) { 
     .st-panel p {;
         font-size: 12px;
@@ -519,5 +523,36 @@ body:before {
       .enlace-res{
         font-size: 1.5em;
       }
+    }
+}
+@media screen and (max-width:769px) {
+    .st-panel p {;
+        font-size: 12px;
+        top: 33%;
+    }
+    .brand svg {
+        top: 19%;
+        left: 53%;
+    }
+}
+@media screen and (max-width:1025px){
+    .st-panel p {;
+        font-size: 12px;
+        top: 33%;
+    }
+    .brand svg {
+        top: 19%;
+        left: 53%;
+    }
+}
+@media screen and (max-width:1309px){
+    .grid-works{
+        visibility: hidden;
+    }
+    .img-responsive-gri-works{
+        visibility: visible;
+        img{
+            width: 100%;
+        }
     }
 }
